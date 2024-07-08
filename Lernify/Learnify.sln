@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseManagementService", "CourseManagementService\CourseManagementService.csproj", "{8B909261-7EFE-4D57-BE07-C8645F039044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "AuthenticationService\AuthenticationService.csproj", "{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamManagementService", "ExamManagementService\ExamManagementService.csproj", "{D34BC086-5A83-4BAC-B9FE-D0479EEEF54F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CertificationService", "CertificationService\CertificationService.csproj", "{C3A79D98-FB91-435E-8B0F-A4FD5D238CE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{3270CA20-D37D-44B1-843D-2A0DF4F357D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLGateway", "GraphQLGateway\GraphQLGateway.csproj", "{8CC03C10-B42B-4287-808C-D12D2B81BFDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B909261-7EFE-4D57-BE07-C8645F039044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B909261-7EFE-4D57-BE07-C8645F039044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B909261-7EFE-4D57-BE07-C8645F039044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B909261-7EFE-4D57-BE07-C8645F039044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34BC086-5A83-4BAC-B9FE-D0479EEEF54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34BC086-5A83-4BAC-B9FE-D0479EEEF54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34BC086-5A83-4BAC-B9FE-D0479EEEF54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34BC086-5A83-4BAC-B9FE-D0479EEEF54F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A79D98-FB91-435E-8B0F-A4FD5D238CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A79D98-FB91-435E-8B0F-A4FD5D238CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A79D98-FB91-435E-8B0F-A4FD5D238CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A79D98-FB91-435E-8B0F-A4FD5D238CE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3270CA20-D37D-44B1-843D-2A0DF4F357D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3270CA20-D37D-44B1-843D-2A0DF4F357D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3270CA20-D37D-44B1-843D-2A0DF4F357D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3270CA20-D37D-44B1-843D-2A0DF4F357D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC03C10-B42B-4287-808C-D12D2B81BFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC03C10-B42B-4287-808C-D12D2B81BFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC03C10-B42B-4287-808C-D12D2B81BFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC03C10-B42B-4287-808C-D12D2B81BFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
