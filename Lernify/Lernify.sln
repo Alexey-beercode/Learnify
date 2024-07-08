@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lernify", "Lernify\Lernify.csproj", "{6EB3E76C-9ABD-48A2-85A2-1289BB3897E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseManagementService", "CourseManagementService\CourseManagementService.csproj", "{8B909261-7EFE-4D57-BE07-C8645F039044}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "AuthenticationService\AuthenticationService.csproj", "{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EB3E76C-9ABD-48A2-85A2-1289BB3897E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB3E76C-9ABD-48A2-85A2-1289BB3897E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB3E76C-9ABD-48A2-85A2-1289BB3897E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB3E76C-9ABD-48A2-85A2-1289BB3897E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B909261-7EFE-4D57-BE07-C8645F039044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B909261-7EFE-4D57-BE07-C8645F039044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B909261-7EFE-4D57-BE07-C8645F039044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B909261-7EFE-4D57-BE07-C8645F039044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897FB610-3B7E-4C7C-8ECA-A234DF6743BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
