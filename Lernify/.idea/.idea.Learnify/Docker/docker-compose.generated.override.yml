@@ -1,0 +1,111 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  authentication-service:
+    build:
+      context: "C:\\AProject\\Learnify\\Lernify\\AuthenticationService"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/AuthenticationService.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "authenticationservice:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Алексей\\.nuget\\packages:/root/.nuget/packages"
+    - "C:\\AProject\\Learnify\\Lernify\\AuthenticationService:/app:rw"
+    - "C:\\AProject\\Learnify\\Lernify:/src:rw"
+    working_dir: "/app"
+  certification-service:
+    build:
+      context: "C:\\AProject\\Learnify\\Lernify\\CertificationService"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/CertificationService.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "certificationservice:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Алексей\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\AProject\\Learnify\\Lernify\\CertificationService:/app:rw"
+    - "C:\\AProject\\Learnify\\Lernify:/src:rw"
+    working_dir: "/app"
+  course-management-service:
+    build:
+      context: "C:\\AProject\\Learnify\\Lernify\\CourseManagementService"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/CourseManagementService.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "coursemanagementservice:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Алексей\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\AProject\\Learnify\\Lernify\\CourseManagementService:/app:rw"
+    - "C:\\AProject\\Learnify\\Lernify:/src:rw"
+    working_dir: "/app"
+  exam-management-service:
+    build:
+      context: "C:\\AProject\\Learnify\\Lernify\\ExamManagementService"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ExamManagementService.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "exammanagementservice:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Алексей\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\AProject\\Learnify\\Lernify\\ExamManagementService:/app:rw"
+    - "C:\\AProject\\Learnify\\Lernify:/src:rw"
+    working_dir: "/app"
+  graphql-gateway:
+    build:
+      context: "C:\\AProject\\Learnify\\Lernify\\GraphQLGateway"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/GraphQLGateway.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "graphqlgateway:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Алексей\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\AProject\\Learnify\\Lernify\\GraphQLGateway:/app:rw"
+    - "C:\\AProject\\Learnify\\Lernify:/src:rw"
+    working_dir: "/app"
+  notification-service:
+    build:
+      context: "C:\\AProject\\Learnify\\Lernify\\NotificationService"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/NotificationService.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "notificationservice:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\Алексей\\.nuget\\packages:/home/app/.nuget/packages"
+    - "C:\\AProject\\Learnify\\Lernify\\NotificationService:/app:rw"
+    - "C:\\AProject\\Learnify\\Lernify:/src:rw"
+    working_dir: "/app"

@@ -1,0 +1,115 @@
+﻿version: '3.8'
+
+services:
+  authentication-service:
+    build:
+      context: ./AuthenticationService
+      dockerfile: Dockerfile
+    ports:
+      - "5001:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=lernify_authentication;Username=postgres;Password=password
+    depends_on:
+      - postgres
+    networks:
+      - lernify-network
+
+  course-management-service:
+    build:
+      context: ./CourseManagementService
+      dockerfile: Dockerfile
+    ports:
+      - "5002:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=lernify_courses;Username=postgres;Password=password
+    depends_on:
+      - postgres
+    networks:
+      - lernify-network
+
+  exam-management-service:
+    build:
+      context: ./ExamManagementService
+      dockerfile: Dockerfile
+    ports:
+      - "5003:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=lernify_exams;Username=postgres;Password=password
+    depends_on:
+      - postgres
+    networks:
+      - lernify-network
+
+  certification-service:
+    build:
+      context: ./CertificationService
+      dockerfile: Dockerfile
+    ports:
+      - "5004:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=lernify_certifications;Username=postgres;Password=password
+    depends_on:
+      - postgres
+    networks:
+      - lernify-network
+
+  notification-service:
+    build:
+      context: ./NotificationService
+      dockerfile: Dockerfile
+    ports:
+      - "5005:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - rabbitmq
+    networks:
+      - lernify-network
+
+  graphql-gateway:
+    build:
+      context: ./GraphQLGateway
+      dockerfile: Dockerfile
+    ports:
+      - "5000:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    depends_on:
+      - authentication-service
+      - course-management-service
+      - exam-management-service
+      - certification-service
+      - notification-service
+    networks:
+      - lernify-network
+
+  postgres:
+    image: "postgres:15"
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "password"
+      POSTGRES_DB: "lernify"
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - lernify-network
+
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - lernify-network
+
+networks:
+  lernify-network:
+
+volumes:
+  postgres_data:
