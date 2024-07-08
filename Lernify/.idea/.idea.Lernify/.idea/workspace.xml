@@ -30,15 +30,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="005f62d5-0718-4d3c-a2ec-24a364ee42e4" name="Changes" comment="Create project structure">
+    <list default="true" id="005f62d5-0718-4d3c-a2ec-24a364ee42e4" name="Changes" comment="added docker support">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lernify/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lernify/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthenticationService/AuthenticationService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AuthenticationService/AuthenticationService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CertificationService/CertificationService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CertificationService/CertificationService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseManagementService/CourseManagementService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CourseManagementService/CourseManagementService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamManagementService/ExamManagementService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ExamManagementService/ExamManagementService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLGateway/GraphQLGateway.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLGateway/GraphQLGateway.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Learnify.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Learnify.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotificationService/NotificationService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NotificationService/NotificationService.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuthenticationService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AuthenticationService/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CertificationService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CertificationService/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseManagementService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CourseManagementService/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExamManagementService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExamManagementService/appsettings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -551,7 +548,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720449095533</updated>
-      <workItem from="1720449097941" duration="6568000" />
+      <workItem from="1720449097941" duration="9060000" />
     </task>
     <task id="LOCAL-00001" summary="Added project structure">
       <option name="closed" value="true" />
@@ -569,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720461269688</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added docker support">
+      <option name="closed" value="true" />
+      <created>1720466250680</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720466250680</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,6 +585,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Added project structure" />
     <MESSAGE value="Create project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create project structure" />
+    <MESSAGE value="added docker support" />
+    <option name="LAST_COMMIT_MESSAGE" value="added docker support" />
   </component>
 </project>
