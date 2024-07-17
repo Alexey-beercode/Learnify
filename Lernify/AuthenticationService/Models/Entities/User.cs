@@ -8,6 +8,7 @@ public class User:IBaseEntity
     public int UserId { get; set; }
     public string UserName { get; set; }
     public string PasswordHash { get; set; }
+    public bool IsDeleted { get; set; }
 
     public ICollection<UserRole> UserRoles { get; set; }
 }

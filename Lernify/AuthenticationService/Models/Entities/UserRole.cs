@@ -9,4 +9,5 @@ public class UserRole
 
     public Guid RoleId { get; set; }
     public Role Role { get; set; }
+    public bool IsDeleted { get; set; }
 }
