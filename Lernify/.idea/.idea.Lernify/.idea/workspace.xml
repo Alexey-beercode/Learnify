@@ -30,12 +30,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="005f62d5-0718-4d3c-a2ec-24a364ee42e4" name="Changes" comment="added docker support">
+    <list default="true" id="005f62d5-0718-4d3c-a2ec-24a364ee42e4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lernify/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lernify/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AuthenticationService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/AuthenticationService/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CertificationService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CertificationService/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CourseManagementService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CourseManagementService/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExamManagementService/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExamManagementService/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lernify/Lernify.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lernify/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lernify/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lernify/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lernify/appsettings.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -548,7 +549,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720449095533</updated>
-      <workItem from="1720449097941" duration="9060000" />
+      <workItem from="1720449097941" duration="10351000" />
     </task>
     <task id="LOCAL-00001" summary="Added project structure">
       <option name="closed" value="true" />
@@ -574,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720466250680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated db and docker config">
+      <option name="closed" value="true" />
+      <created>1720470114751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720470114751</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -586,6 +595,7 @@
     <MESSAGE value="Added project structure" />
     <MESSAGE value="Create project structure" />
     <MESSAGE value="added docker support" />
-    <option name="LAST_COMMIT_MESSAGE" value="added docker support" />
+    <MESSAGE value="Updated db and docker config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated db and docker config" />
   </component>
 </project>
