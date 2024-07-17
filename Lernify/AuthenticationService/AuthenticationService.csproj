@@ -14,15 +14,13 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Configurations\" />
       <Folder Include="Controllers\" />
       <Folder Include="Infrastructure\Cache\" />
       <Folder Include="Infrastructure\Messaging\" />
-      <Folder Include="Models\DTOs\" />
-      <Folder Include="Services\" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
       <PackageReference Include="BCrypt.Net" Version="0.1.0" />
       <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />

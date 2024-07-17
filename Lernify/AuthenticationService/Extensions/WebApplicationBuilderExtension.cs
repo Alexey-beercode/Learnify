@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using AuthenticationService.Configurations;
 using AuthenticationService.Infrastructure.Database;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -89,5 +90,10 @@ public static class WebApplicationBuilderExtension
                 }
             );
         });
+    }
+
+    public static void AddMapping(this WebApplicationBuilder builder)
+    {
+        builder.Services.AddAutoMapper(typeof(MappingProfile));
     }
 }

@@ -14,7 +14,15 @@ namespace AuthenticationService.Infrastructure.Database.Configurations
                 .IsRequired()
                 .ValueGeneratedOnAdd();
 
-            builder.Property(u => u.UserName)
+            builder.Property(u => u.Login)
+                .IsRequired()
+                .HasMaxLength(100);
+            
+            builder.Property(u => u.Name)
+                .IsRequired()
+                .HasMaxLength(100);
+            
+            builder.Property(u => u.Surname)
                 .IsRequired()
                 .HasMaxLength(100);
 
